@@ -12,7 +12,7 @@ ll: llast
 	ln -s llast ll
 
 IMG := ![]\(test/sshot/1.png)
-IMG := <center><img src=test/sshot/1.png width=200></center>
+IMG := <div style=text-align\:center><img src=test/sshot/1.png width=480></div>
 
 README.md: $(BIN)
 	$< -h | man2md | sed "s:### OPTIONS:$(IMG)\n\n### OPTIONS:" > $@

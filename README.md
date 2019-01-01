@@ -64,15 +64,15 @@ the coloring of filenames.
         -sk0  Integer output, no decimals (also -sm0 -sg0 -sK0 -sM0 -sG0).
 
 ### ORDER
-By default, newest items are listed first.  Multiple sorting criteria
-can be used, they are combined according to the rank.
-
-  +t  Time order (default).
-  +s  Size order.
-  +a  Alphabetical order.
+        By default, newest items are listed first.  Multiple sorting criteria
+        can be used, they are combined according to the rank.
+    
+          +t  Time order (default).
+          +s  Size order.
+          +a  Alphabetical order.
 
 ### INSTALL
-To install copy the llast and ll into your /bin directory.
+        To install copy the llast and ll into your /bin directory.
 
 ### VERSION
 llast.0.2 (c) R.Jaksa 2018 GPLv3

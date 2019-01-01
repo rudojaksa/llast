@@ -10,9 +10,6 @@ $HELP=<<EOF;
 NAME
     llast - list last modified files
 
-
-<img src="test/sshot/1.png" width="200">
-
 USAGE
     llast [OPTIONS] FILE|CC(DIR) ...
 

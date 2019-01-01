@@ -1,8 +1,6 @@
 ### NAME
 llast - list last modified files
 
-<img src="test/sshot/1.png" width="200">
-
 ### USAGE
         llast [OPTIONS] FILE|DIR ...
 
@@ -11,7 +9,7 @@ List files and symlinks with the ISO 8601 timestamp in the order
 of the last modification (last=first).  It is ls-wrapper preserving
 the coloring of filenames.
 
-![](test/sshot/1.png)
+<center><img src=test/sshot/1.png width=200></center>
 
 ### OPTIONS
           -h  This help.

@@ -9,7 +9,7 @@ List files and symlinks with the ISO 8601 timestamp in the order
 of the last modification (last=first).  It is ls-wrapper preserving
 the coloring of filenames.
 
-<div style=text-align:center><img src=test/sshot/1.png width=480></div>
+<p align=center><img src=test/sshot/2.png width=640></p>
 
 ### OPTIONS
           -h  This help.

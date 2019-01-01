@@ -1,0 +1,13 @@
+
+0.2 - fix - filenames with spaces
+    - fix - md5 on such filenames
+    - add symbolic links listing
+    - added notime support for llast
+    - added -NUM support for llast
+    - added size support into llast
+    - added alphabetical and size ordering into llast
+    - added locate
+    - added depth and scope
+    - included 0 output in size column
+    - added epoch output
+

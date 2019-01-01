@@ -1,0 +1,23 @@
+
+= Bugs =
+
+ * Locate -lo filenames and paths do not honor -i yet.
+
+= TODO =
+
+ * Files with the same modification time are sorted alphabetically (common with the -min switch).
+ * Per-directory configuration file ".llast".
+ * Progress indicator, or maybe streaming processing of the locate output.
+ * Printf-like format.
+ * Reverse order.
+
+= Modular structure =
+
+Modules for:
+
+ * sorting
+ * filtering
+ * control
+ * column presetation
+ * output composition
+

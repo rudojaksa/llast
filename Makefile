@@ -17,7 +17,7 @@ IMG := <p align="center"><img src=test/sshot/1.png width=580></p>
 README.md: $(BIN)
 	$< -h | man2md | sed "s:### OPTIONS:$(IMG)\n\n### OPTIONS:" > $@
 
-push:
+push: $(BIN) ll README.md
 	git add .
 	git commit -m update
 	git push -f origin master

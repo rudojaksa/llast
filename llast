@@ -450,7 +450,7 @@ USAGE
 DESCRIPTION
     List files and symlinks with the ISO 8601 timestamp in the order
     of the last modification (last=first).  It is ls-wrapper preserving
-    the coloring of filenames.
+    the coloring of filenames.  For Linux and Mac.
 
 OPTIONS
       -h  This help.

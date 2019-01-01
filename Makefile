@@ -14,9 +14,7 @@ ll: llast
 IMG := ![]\(test/sshot/1.png)
 
 README.md: $(BIN)
-	$< -h | man2md | sed "s:### DESCRIPTION:$(IMG)\n\n### DESCRIPTION:" > $@
-
-
+	$< -h | man2md | sed "s:### OPTIONS:$(IMG)\n\n### OPTIONS:" > $@
 
 push: clean
 	git add .
